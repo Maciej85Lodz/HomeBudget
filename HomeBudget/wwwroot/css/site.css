@@ -143,18 +143,19 @@ body {
 }
   
 /* LARGE SCREENS */
-@media(min-width:700px){
-    .wrapper{
+@media(min-width:700px) {
+    .wrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
-  
-    .wrapper > *{
-        padding:2em;
-    }
-  
-    .company-info h3, .company-info ul, .brand{
+
+        .wrapper > * {
+            padding: 2em;
+        }
+
+    .company-info h3, .company-info ul, .brand {
         text-align: left;
         font-size: 24px;
         top: 70px;
     }
+}

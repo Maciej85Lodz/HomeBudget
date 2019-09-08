@@ -53,7 +53,7 @@ namespace HomeBudget.Controllers
         }
         public ActionResult BudgetSummary()
         {
-            return PartialView("_BudgetReport");
+            return PartialView("_budgetReport");
         }
         public JsonResult GetMonthlyBudget()
         {

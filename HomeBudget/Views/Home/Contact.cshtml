@@ -5,13 +5,45 @@
 <h3>@ViewData["Message"]</h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    Maciej Wołejszo<br />
+    maciejwolejszo.pl<br/>
 </address>
 
 <address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    <strong>Support:</strong> <a href="mailto:contact@maciejwolejszo.pl">contact@maciejwolejszo.pl</a><br />
+    
 </address>
+
+<section class="contact" id="contact">
+    
+    <div class="container">
+
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Maciej Wołejszo</h3>
+            </div>
+            <div class="contact">
+                <h3>Email Us</h3>
+                <div class="alert">Your message has been sent</div>
+                <form id="contactForm">
+                    <p class="full">
+                        <label>Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </pclass="full">
+                    
+                    <p class="full">
+                        <label>E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class="full">
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -9,7 +9,7 @@
             var titleMessage = "Expenses in last four weeks is : ";
             $.ajax({
                 type: "GET",
-                url: "/Expense/GetWeeklyExpense",
+                url: "/Budget/GetWeeklyExpense",
                 contentType: "application/json",
                 dataType: "json",
                 success: function (result) {
@@ -31,7 +31,7 @@
             var titleMessage = "Expenses in last six months is : ";
             $.ajax({
                 type: "GET",
-                url: "/Expense/GetMonthlyExpense",
+                url: "/Budget/GetMonthlyExpense",
                 contentType: "application/json",
                 dataType: "json",
                 success: function (result) {

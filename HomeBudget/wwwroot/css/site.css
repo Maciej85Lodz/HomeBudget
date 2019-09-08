@@ -35,3 +35,11 @@ body {
         display: none;
     }
 }
+
+.footer {
+    display: block;
+    bottom: 10px;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
